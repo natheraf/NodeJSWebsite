@@ -1,16 +1,15 @@
-Node portion of website
+Node portion of website. Visit it here: http://ericma.net/n
 
-MERN stack: (MongoDB, Express.js, React.js, and Nodejs)
-plus docker
+MERN stack + Docker: (MongoDB, Express.js, React.js, and Nodejs)
 
-install docker
+To run it on your local machine, install docker.
 
-in project root directory
-run `docker-compose build`
-run `docker-compose up` after build
+In project root directory
+1. run `docker-compose build`
+2. run `docker-compose up` after build
 
-to stop all services
-run `docker-compose stop`
-or run `docker-compose down --volumes` to bring everything down, removing the containers entirely, with the data volume of the services
+To stop all services, 
+* run `docker-compose stop`
+* or run `docker-compose down --volumes` to bring everything down, removing the containers entirely, with the data volume of the services
 
 Eric Ma
