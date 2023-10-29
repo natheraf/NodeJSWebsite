@@ -4,7 +4,7 @@ MERN stack + Docker: (MongoDB, Express.js, React.js, and Nodejs)
 
 To run it on your local machine, install docker.
 
-In project root directory
+In project `backend` directory:
 1. run `docker-compose build`
 2. run `docker-compose up` after build
 
