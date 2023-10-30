@@ -12,4 +12,6 @@ To stop all services,
 * run `docker-compose stop`
 * or run `docker-compose down --volumes` to bring everything down, removing the containers entirely, with the data volume of the services
 
+In project `frontend` directory, run `npm start` to run react app locally
+
 Eric Ma
