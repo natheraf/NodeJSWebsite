@@ -6,7 +6,7 @@ To run it on your local machine, install docker.
 
 In project `backend` directory:
 1. run `docker-compose build`
-2. run `docker-compose up` after build
+2. run `docker-compose up -d` after build
 
 To stop all services, 
 * run `docker-compose stop`
