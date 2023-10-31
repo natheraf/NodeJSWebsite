@@ -2,7 +2,10 @@ Node portion of website. Visit it here: http://ericma.net/n
 
 MERN stack + Docker: (MongoDB, Express.js, React.js, and Nodejs)
 
-To run it on your local machine, install docker.
+Run `npm install` in both `backend` and `frontend` directories.
+
+
+To set up the project with docker:
 
 In project `backend` directory:
 1. run `docker-compose build`
