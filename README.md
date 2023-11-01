@@ -6,7 +6,7 @@ MERN stack + Docker: (MongoDB, Express.js, React.js, and Nodejs)
 Run `npm install` in both `backend` and `frontend` directories.
 
 ## To set up the project without docker for local development:
-1. run `npm run build-localhost` in `frontend` directory
+1. run `npm run build-localhost` in `frontend` directory <br>
    This will build with cross-env set to `PUBLIC_URL=http://localhost:8080/`
 2. run `npm run start` in `backend` directory
 
