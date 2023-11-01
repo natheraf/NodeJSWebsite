@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && xcopy \"E:\\Node Projects\\NodeJSWebsite\\frontend\\build\" \"E:\\Node Projects\\NodeJSWebsite\\backend\\build\" /E /Y",
+    "build": "react-scripts build && xcopy \".\\build\" \"..\\backend\\build\" /E /Y",
+    "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
