@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npx copyfiles \"build/*\" ../backend/",
-    "build-localhost": "cross-env PUBLIC_URL=/ npm run build",
+    "build": "react-scripts build && npx copyfiles --error \"build/**/*\" ../backend/",
+    "build-localhost": "cross-env PUBLIC_URL=http://localhost:8080/ npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
