@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 8080;
 
-app.listen(port, () => console.log('Express Server on port 8080.'));
+app.listen(port, () => console.log(`Express Server on port ${port}`));
