@@ -10,7 +10,7 @@ Run `npm install` in both `backend` and `frontend` directories.
    <br>This will build with cross-env set to `PUBLIC_URL=http://localhost:8080/`
 3. run `npm run start` in `backend` directory
 
-## To set up the project with docker:
+~~## To set up the project with docker:~~ (needs more work to get working propery with docker)
 In `backend` directory:
 1. run `docker-compose build`
 2. run `docker-compose up -d` after build
